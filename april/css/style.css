@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "chong-regular";
+    src: url("fonts/chong-regular.otf") format('otf');
+}
+
+@font-face {
+    font-family: "quicksand-light";
+    src: url("fonts/quicksand-light.otf") format('otf');
+}
+
+
+nav {  
+      height: 40px;  
+      width: 100%;  
+      background: #ffffff;  
+      font-size: 11pt;  
+      font-family: Arial, sans-serif;  
+      font-weight: bold;  
+      position: relative;  
+    
+  }  
+
+    nav ul {  
+        display: none;  
+        height: auto;
+		background: #ffffff;
+        font-family: "quicksand-light";
+        text-transform: uppercase;
+        
+    }  
+
+    nav li {
+        display: block;
+        float: none;
+		background: #ffffff;  
+        
+    }
+	
+
+	
+
+
+nav a {  
+  color: #000000;  
+  display: block;  
+  width: 100%;  
+  text-align: center;  
+  text-decoration: none;  
+  line-height: 1.3em;
+  font-size: 2em; 
+  
+}
+
+nav li a {  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+
+nav a:hover, nav a:active {  
+    background-color: #ffffff;  
+}
+  

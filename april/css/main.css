@@ -1,0 +1,187 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+		background-size: cover;
+		font-size: 12px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		background-color: white;
+}
+
+#title {
+		
+	   font-family: 'chong-regular';
+		text-align: left;
+		color: black;
+		font-size:40px;
+		text-decoration: none;
+		padding: 3% 10% 0% 20%;
+        text-transform: uppercase;
+		
+}
+
+
+
+
+#title h1 a:link {
+		color: black;
+		font-size:40px;
+		text-decoration: none;
+		
+
+}
+
+
+
+
+
+#title h1 a:hover {
+		color: black;
+		font-size:40px;
+		text-decoration: none;
+
+}
+
+
+
+
+#title h1 a:visited {
+		color: black;
+		font-size:40px;
+		text-decoration: none;
+
+}
+
+
+	#h1 {
+		font-size: 3em;
+		font-weight:100;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: dimgray;
+		padding:0 0 0 2%;
+		}
+	
+header h2 {
+		font-size: .75em;
+		text-transform: uppercase;
+		color: #A5A5A5;
+		padding:0 0 0 2%;
+		}
+	
+	
+	
+	
+#about {
+	font-size:12px;
+	color: #E7E4D7;
+	
+	}
+	#gear {
+	font-size:12px;
+	color: #E7E4D7;
+	
+	}#explorers {
+	font-size:12px;
+	color: #E7E4D7;
+	
+	}#gallery {
+	font-size:12px;
+	color: #E7E4D7;
+	
+	}
+
+
+
+#cover {
+    display: block;
+    margin: 4%;
+    text-align: center;
+}
+
+#border-top-bottom {
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+
+
+
+img {
+		margin: auto;
+		padding: 0 1em 1em 0;
+       
+}
+
+#about-img {
+    width: 100%;
+    display:inline-grid;
+    padding-top: 10px;
+    grid-template-columns: auto auto;
+    align-items: center; 
+}
+
+#page {
+		margin: auto;
+    width: 50%;
+    
+}
+
+#clay-section-3 {
+    margin-left: 0%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+#clay-section-2 {
+    margin-left: 0%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% auto;
+    grid-gap: 10px;
+}
+
+
+p{
+   	margin-bottom: 1em;
+	font-size: 12px;
+}
+
+h2 {
+ 	font-size: 18px;
+		text-align: center;
+		color:black;
+		font-weight: bold;
+		padding: 1em	;
+}
+
+
+
+
+
+footer { 
+    text-align: center;
+    clear: left;
+    padding: 5em;
+}

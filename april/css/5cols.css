@@ -1,0 +1,124 @@
+/*  GRID OF FIVE   ============================================================================= */
+
+	
+.span_5_of_5 {
+	width: 100%;
+}
+
+.span_4_of_5 {
+  	width: 7%; 
+}
+
+.span_3_of_5 {
+  	width: 8%; 
+}
+
+.span_2_of_5 {
+  	width: 15%; 
+}
+
+.span_1_of_5 {
+  	width: 6%;
+}
+
+.span_0_of_5 {
+  	width: 6%;
+}
+
+@media only screen and (max-width: 1170px) {
+    nav a {
+        font-size: 1.5em !important;
+    }
+    
+         #clay-section-3 {
+            display: block !important;
+        }
+    
+         #clay-section-2 {
+            display: block !important;
+        }
+    
+       
+}
+/*  GO TWO COLUMNS AT LESS THAN 768 PIXELS */
+
+@media only screen and (max-width: 880px) {
+    
+    #about-img {
+        display: block !important;
+    }
+    
+    #about-bio-title {
+        float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+    
+    nav a {
+        font-size: 1.5em !important;
+    }
+    
+    #page {
+        padding-top: 60px;
+    }
+    
+    #border-top-bottom {
+    border-top: 0px solid #666 !important;
+    border-bottom: 0px solid #666 !important;
+        
+}
+    
+    
+    
+	.span_5_of_5 {
+		width: 50%; 
+	}
+	.span_4_of_5 {
+		width: 70%; 
+	}
+	.span_3_of_5 {
+		width: 35%; 
+	}
+	.span_2_of_5 {
+		width: 60%; 
+	}
+	.span_1_of_5 {
+		width: 35%; 
+	}
+    .span_0_of_5 {
+		width: 50%; 
+	}
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    
+    .col:first-child {
+    margin-left: 0%;
+}
+    
+    #page {
+        padding-top: 60px !important;
+    }
+	.span_5_of_5 {
+		width: 100%; 
+	}
+	.span_4_of_5 {
+		width: 100%; 
+	}
+	.span_3_of_5 {
+		width: 100%; 
+	}
+	.span_2_of_5 {
+		width: 100%; 
+	}
+	.span_1_of_5 {
+		width: 100%; 
+	}
+    .span_0_of_5 {
+		width: 100%; 
+	}
+}
